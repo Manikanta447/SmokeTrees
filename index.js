@@ -56,5 +56,3 @@ app.post("/register/", async (req, res) => {
     const addAddress = await db.run(addAddressQuery)
     res.send("User registered and address added successfully")
 })
-
-git config --global user.email "Enter your emailid here" 
